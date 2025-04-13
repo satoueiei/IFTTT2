@@ -5,3 +5,4 @@ twikit
 requests
 python-dateutil
 Flask
+pymongo[srv]
