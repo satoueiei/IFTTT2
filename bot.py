@@ -40,8 +40,8 @@ intents.members = True # ユーザー情報を取得するために必要にな�
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-USER_DATA_DIR = ".data"
-#os.makedirs(USER_DATA_DIR, exist_ok=True)
+USER_DATA_DIR = "user_data"
+os.makedirs(USER_DATA_DIR, exist_ok=True)
 
 # --- データ管理関数 ---
 def load_user_data(user_id):
